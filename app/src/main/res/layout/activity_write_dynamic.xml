@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:id="@+id/activity_write_dong_tai"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="com.gdcp.yueyunku_client.ui.activity.WriteDynamicActivity">
+    <include layout="@layout/toolbar"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <EditText
+            android:id="@+id/edt_content_dongtai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="分享这一刻的想法"
+            android:background="@null"/>
+    </ScrollView>
+    <com.yzs.imageshowpickerview.ImageShowPickerView
+        android:layout_marginTop="20dp"
+        android:id="@+id/imageShowPickerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:max_num="9"
+        app:is_show_del="true">
+    </com.yzs.imageshowpickerview.ImageShowPickerView>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/iv_location"
+            android:src="@mipmap/location_image"/>
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="所在位置"/>
+    </LinearLayout>
+</LinearLayout>

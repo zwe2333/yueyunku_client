@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.gdcp.yueyunku_client.widget.ClearEditText
+            android:id="@+id/edt_search"
+            android:layout_weight="1"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+            android:drawableLeft="@mipmap/search_23"
+            android:paddingLeft="10dp"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/bg_edt_search"
+            android:hint="@string/search"
+            android:gravity="left|center"
+            android:paddingRight="10dp"
+            android:textCursorDrawable="@null"/>
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="5dp"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:text="@string/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>

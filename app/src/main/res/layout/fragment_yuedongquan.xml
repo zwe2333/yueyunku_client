@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:fab="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <include layout="@layout/toolbar"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.jcodecraeer.xrecyclerview.XRecyclerView
+            android:layout_marginTop="1dp"
+            android:id="@+id/rv_yueyunquan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </com.jcodecraeer.xrecyclerview.XRecyclerView>
+
+        <com.melnykov.fab.FloatingActionButton
+            android:id="@+id/float_btn"
+            android:layout_margin="16dp"
+            android:src="@mipmap/ic_add_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            fab:fab_colorNormal="@color/main_color"
+            fab:fab_colorPressed="@color/colorDarkorange"
+            android:backgroundTint="@color/main_color"/>
+    </FrameLayout>
+
+
+</LinearLayout>

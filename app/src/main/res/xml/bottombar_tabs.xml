@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_yuedongquan"
+        icon="@mipmap/yueyunquan_click"
+        title="悦动圈" />
+    <tab
+        id="@+id/tab_yueyundong"
+        icon="@mipmap/yueyundong_click"
+        title="约运动" />
+    <tab
+        id="@+id/tab_me"
+        icon="@mipmap/me_click"
+        title="我" />
+</tabs>

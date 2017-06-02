@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/ll_hot"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_place_sport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/love_pic6" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/iv_place_sport"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:id="@+id/tv_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="活动" />
+
+        <TextView
+            android:layout_marginLeft="9dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/tv_jixiantime_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tv_activity"
+            android:text="2016/10/21-12/21" />
+
+        <TextView
+            android:layout_alignParentRight="true"
+            android:id="@+id/tv_shengyutime_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="5dp"
+            android:text="剩余2天3小时" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_title_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="活动名称" />
+
+    <TextView
+        android:id="@+id/tv_content_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="活动内容" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#AAAAAA"></View>
+</LinearLayout>

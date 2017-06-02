@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <include layout="@layout/toolbar"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <android.support.v7.widget.RecyclerView
+                android:layout_marginTop="10dp"
+                android:id="@+id/rv_sport_type"
+                android:layout_width="match_parent"
+                android:layout_height="120dp">
+            </android.support.v7.widget.RecyclerView>
+            <View
+                android:background="#DDDDDD"
+                android:layout_width="match_parent"
+                android:layout_height="1dp">
+            </View>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+                <ImageView
+                    android:id="@+id/iv_love"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/love_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textColor="@color/colorAccent"
+                    android:layout_marginLeft="6dp"
+                    android:layout_toRightOf="@+id/iv_love"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tv_place_sport"/>
+                <TextView
+                    android:id="@+id/tv_more_sport_palce"
+                    android:layout_marginRight="2dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tv_more"/>
+            </RelativeLayout>
+            <View
+                android:background="#DDDDDD"
+                android:layout_width="match_parent"
+                android:layout_height="1dp">
+            </View>
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_marginTop="10dp"
+                android:id="@+id/rv_place_sport"
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+            </android.support.v7.widget.RecyclerView>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+                <ImageView
+                    android:id="@+id/iv_remen"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/remen_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textColor="@color/colorDarkorange"
+                    android:layout_marginLeft="6dp"
+                    android:layout_toRightOf="@+id/iv_remen"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tv_activity_hot"/>
+                <TextView
+                    android:id="@+id/tv_more_activity"
+                    android:layout_marginRight="2dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tv_more"/>
+            </RelativeLayout>
+            <View
+                android:background="#DDDDDD"
+                android:layout_width="match_parent"
+                android:layout_height="1dp">
+            </View>
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_marginTop="10dp"
+                android:id="@+id/rv_activity_hot"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </android.support.v7.widget.RecyclerView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

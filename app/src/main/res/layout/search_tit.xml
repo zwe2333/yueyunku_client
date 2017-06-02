@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="horizontal"
+    android:gravity="center_vertical">
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        >
+        <RadioButton
+            android:id="@+id/rb_order_zonghe"
+            android:button="@null"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="综合排序"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/arrow1"
+            android:layout_width="15dp"
+            android:src="@mipmap/icon_spinner_drop_down"
+            android:layout_height="match_parent" />
+        <RadioButton
+            android:text="运动方式"
+            android:id="@+id/rb_way_sport"
+            android:button="@null"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:id="@+id/arrow2"
+            android:layout_width="15dp"
+            android:src="@mipmap/icon_spinner_drop_pre"
+            android:layout_height="match_parent" />
+        <RadioButton
+            android:text="筛选"
+            android:id="@+id/rb_shaixuan"
+            android:button="@null"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:layout_marginRight="15dp"
+            android:id="@+id/arrow3"
+            android:layout_width="15dp"
+            android:src="@mipmap/icon_spinner_find_pre"
+            android:layout_height="match_parent" />
+
+    </RadioGroup>
+
+
+</LinearLayout>

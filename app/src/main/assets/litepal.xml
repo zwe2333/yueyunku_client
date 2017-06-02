@@ -1,0 +1,9 @@
+<litepal>
+    <dbname value="yueyunku"/>
+    <version value="1"/>
+    <list>
+        <mapping class="com.gdcp.yueyunku_client.db.Province"/>
+        <mapping class="com.gdcp.yueyunku_client.db.City"/>
+        <mapping class="com.gdcp.yueyunku_client.db.County"/>
+    </list>
+</litepal>

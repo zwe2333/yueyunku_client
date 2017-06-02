@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimaryDark2">#D4D4D4</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="onboarder_bg_1">#9AC0CD</color>
+    <color name="primary_text">#000000</color>
+    <color name="secondary_text">#8B7E66</color>
+    <color name="onboarder_bg_2">#97FFFF</color>
+    <color name="onboarder_bg_3">#90EE90</color>
+    <color name="main_color">#FF8C00</color>
+    <color name="logout_color">#FF0000</color>
+    <color name="edt">#AAAAAA</color>
+    <color name="noclick">#C0C0C0</color>
+    <color name="middleText">#663D3D3D</color>
+    <color name="btnlogin">#ffffff</color>
+    <color name="transparent">#66000000</color>
+    <color name="bg_fragment">#EDEDED</color>
+    <color name="bg_layout">#FFFFFF</color>
+    <color name="bg_tab_color">#66FF00</color>
+    <color name="colorDarkorange">#FFA500</color>
+    <color name="black">#000000</color>
+</resources>
